@@ -1,5 +1,39 @@
 {
   "format": 1,
   "name": "Gamehearth-Katalog",
-  "games": []
+  "games": [
+    {
+      "id": "mau-mau",
+      "name": "Mau-Mau",
+      "description": "Mau-Mau für 2–6 Spieler mit Siebenern, Achtern, Buben und Assen",
+      "repository": "https://github.com/weilers-git/gamehearth-mau-mau",
+      "versions": [
+        {
+          "version": "0.1.0",
+          "sdk": "^0.1.0",
+          "mode": "turn-based",
+          "players": {
+            "min": 2,
+            "max": 6
+          },
+          "roles": {
+            "player": {
+              "inputs": [
+                "touch",
+                "mouse"
+              ],
+              "screen": "small"
+            }
+          },
+          "license": {
+            "code": "MIT",
+            "assets": "CC0-1.0"
+          },
+          "size": 367894,
+          "url": "https://github.com/weilers-git/gamehearth-mau-mau/releases/download/v0.1.0/mau-mau-0.1.0.zip",
+          "sha256": "852583f0d6dd722a1ea6a413ba600b3c731d2b3b7f60f55418323c397c62fd77"
+        }
+      ]
+    }
+  ]
 }
