@@ -17,6 +17,7 @@ Wer einen Katalog hinzufügt, vertraut ihm: Spiele daraus laufen auf dem Server 
 | Spiel | Repo |
 |---|---|
 | Mau-Mau | [weilers-git/gamehearth-mau-mau](https://github.com/weilers-git/gamehearth-mau-mau) |
+| Farbfelder | [weilers-git/gamehearth-farbfelder](https://github.com/weilers-git/gamehearth-farbfelder) |
 
 ## Eine Version eintragen
 

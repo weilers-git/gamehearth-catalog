@@ -3,6 +3,43 @@
   "name": "Gamehearth-Katalog",
   "games": [
     {
+      "id": "farbfelder",
+      "name": "Farbfelder",
+      "description": "Lauf mit dem Handy übers Feld, färb Kästchen in deiner Farbe und kleckse; nach 90 Sekunden gewinnt, wer die meisten hat",
+      "repository": "https://github.com/weilers-git/gamehearth-farbfelder",
+      "versions": [
+        {
+          "version": "0.1.0",
+          "sdk": "^0.1.1",
+          "mode": "realtime",
+          "players": {
+            "min": 2,
+            "max": 8
+          },
+          "roles": {
+            "screen": {
+              "inputs": [],
+              "screen": "large"
+            },
+            "controller": {
+              "inputs": [
+                "touch",
+                "keyboard"
+              ],
+              "screen": "small"
+            }
+          },
+          "license": {
+            "code": "MIT",
+            "assets": "CC0-1.0"
+          },
+          "size": 367824,
+          "url": "https://github.com/weilers-git/gamehearth-farbfelder/releases/download/v0.1.0/farbfelder-0.1.0.zip",
+          "sha256": "5147c661b007831b4ad4d5802f772eb0551f499e2481132cb6e8d52c842922c0"
+        }
+      ]
+    },
+    {
       "id": "mau-mau",
       "name": "Mau-Mau",
       "description": "Mau-Mau für 2–6 Spieler mit Siebenern, Achtern, Buben und Assen",
