@@ -71,6 +71,39 @@
           "sha256": "852583f0d6dd722a1ea6a413ba600b3c731d2b3b7f60f55418323c397c62fd77"
         }
       ]
+    },
+    {
+      "id": "mauerbrecher",
+      "name": "Mauerbrecher",
+      "description": "Mit dem Schläger einen Ball gegen eine Mauer aus Steinen schießen und sie in 10 Leveln zerschlagen",
+      "repository": "https://github.com/weilers-git/gamehearth-mauerbrecher",
+      "versions": [
+        {
+          "version": "0.1.0",
+          "sdk": "^0.1.2",
+          "mode": "single",
+          "players": {
+            "min": 1,
+            "max": 1
+          },
+          "roles": {
+            "player": {
+              "inputs": [
+                "touch",
+                "keyboard"
+              ],
+              "screen": "small"
+            }
+          },
+          "license": {
+            "code": "MIT",
+            "assets": "CC0-1.0"
+          },
+          "size": 369261,
+          "url": "https://github.com/weilers-git/gamehearth-mauerbrecher/releases/download/v0.1.0/mauerbrecher-0.1.0.zip",
+          "sha256": "17a4d667cfd2c7e85d379c36f91d330d79deb79cc60dc3fc280a892a188b5580"
+        }
+      ]
     }
   ]
 }

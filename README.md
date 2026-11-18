@@ -1,6 +1,6 @@
 # Gamehearth-Katalog
 
-Der Katalog der Spiele für [Gamehearth](https://github.com/weilers-git/gamehearth), eine selbst hostbare Spieleplattform. Das Repo enthält nur den Index `catalog.json`: pro Spiel Name, Beschreibung, Link zum Quelltext und pro Version Spielerzahl, Rollen, Lizenz, Größe, Download-Adresse und SHA-256-Prüfsumme. Der Spielcode liegt im Repo des jeweiligen Spiels, die Pakete hängen an dessen Releases.
+Der Katalog der Spiele für Gamehearth, eine selbst hostbare Spieleplattform. Das Repo enthält nur den Index `catalog.json`: pro Spiel Name, Beschreibung, Link zum Quelltext und pro Version Spielerzahl, Rollen, Lizenz, Größe, Download-Adresse und SHA-256-Prüfsumme. Der Spielcode liegt im Repo des jeweiligen Spiels, die Pakete hängen an dessen Releases.
 
 ## Auf einem Server nutzen
 
@@ -10,7 +10,7 @@ In der Verwaltung des Gamehearth-Servers unter „Kataloge“ die Adresse eintra
 https://raw.githubusercontent.com/weilers-git/gamehearth-catalog/main/catalog.json
 ```
 
-Wer einen Katalog hinzufügt, vertraut ihm: Spiele daraus laufen auf dem Server und in den Browsern der Mitspieler. Der Server prüft jedes Paket gegen die Prüfsumme im Katalog, entpackt es streng, lädt es in seine Sandbox und spielt eine Probepartie, bevor er es installiert. Er lädt den Katalog einmal am Tag neu und zeigt neue Versionen in der Verwaltung an; installiert wird erst auf Klick.
+Wer einen Katalog hinzufügt, vertraut ihm: Spiele daraus laufen auf dem Server und in den Browsern der Mitspieler. Der Server prüft jedes Paket gegen die Prüfsumme im Katalog und entpackt es streng; bei Spielen mit Regeln auf dem Server lädt er sie außerdem in seine Sandbox und spielt eine Probepartie, bevor er das Spiel installiert. Einzelspieler ohne Regeln auf dem Server (wie Mauerbrecher) laufen ganz im Browser; der Server hebt nur Spielstand und Bestwerte auf. Er lädt den Katalog einmal am Tag neu und zeigt neue Versionen in der Verwaltung an; installiert wird erst auf Klick.
 
 ## Spiele
 
@@ -18,6 +18,7 @@ Wer einen Katalog hinzufügt, vertraut ihm: Spiele daraus laufen auf dem Server 
 |---|---|
 | Mau-Mau | [weilers-git/gamehearth-mau-mau](https://github.com/weilers-git/gamehearth-mau-mau) |
 | Farbfelder | [weilers-git/gamehearth-farbfelder](https://github.com/weilers-git/gamehearth-farbfelder) |
+| Mauerbrecher | [weilers-git/gamehearth-mauerbrecher](https://github.com/weilers-git/gamehearth-mauerbrecher) |
 
 ## Eine Version eintragen
 
