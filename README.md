@@ -19,6 +19,7 @@ Wer einen Katalog hinzufügt, vertraut ihm: Spiele daraus laufen auf dem Server 
 | Mau-Mau | [weilers-git/gamehearth-mau-mau](https://github.com/weilers-git/gamehearth-mau-mau) |
 | Farbfelder | [weilers-git/gamehearth-farbfelder](https://github.com/weilers-git/gamehearth-farbfelder) |
 | Mauerbrecher | [weilers-git/gamehearth-mauerbrecher](https://github.com/weilers-git/gamehearth-mauerbrecher) |
+| Angelteich | [weilers-git/gamehearth-angelteich](https://github.com/weilers-git/gamehearth-angelteich) |
 
 ## Eine Version eintragen
 
