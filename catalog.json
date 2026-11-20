@@ -5,9 +5,38 @@
     {
       "id": "farbfelder",
       "name": "Farbfelder",
-      "description": "Lauf mit dem Handy übers Feld, färb Kästchen in deiner Farbe und kleckse; nach 90 Sekunden gewinnt, wer die meisten hat",
+      "description": "Lauf mit dem Handy übers Feld, färb Kästchen in deiner Farbe und kleckse; ist die Zeit um, gewinnt, wer die meisten hat",
       "repository": "https://github.com/weilers-git/gamehearth-farbfelder",
       "versions": [
+        {
+          "version": "0.2.0",
+          "sdk": "^0.1.3",
+          "mode": "realtime",
+          "players": {
+            "min": 2,
+            "max": 8
+          },
+          "roles": {
+            "screen": {
+              "inputs": [],
+              "screen": "large"
+            },
+            "controller": {
+              "inputs": [
+                "touch",
+                "keyboard"
+              ],
+              "screen": "small"
+            }
+          },
+          "license": {
+            "code": "MIT",
+            "assets": "CC0-1.0"
+          },
+          "size": 369649,
+          "url": "https://github.com/weilers-git/gamehearth-farbfelder/releases/download/v0.2.0/farbfelder-0.2.0.zip",
+          "sha256": "0f609b3b00ed25981c7601e2dfe65ff099029076b83a16f5dc5ebd906e454beb"
+        },
         {
           "version": "0.1.0",
           "sdk": "^0.1.1",
@@ -45,6 +74,31 @@
       "description": "Mau-Mau für 2–6 Spieler mit Siebenern, Achtern, Buben und Assen",
       "repository": "https://github.com/weilers-git/gamehearth-mau-mau",
       "versions": [
+        {
+          "version": "0.2.0",
+          "sdk": "^0.1.3",
+          "mode": "turn-based",
+          "players": {
+            "min": 2,
+            "max": 6
+          },
+          "roles": {
+            "player": {
+              "inputs": [
+                "touch",
+                "mouse"
+              ],
+              "screen": "small"
+            }
+          },
+          "license": {
+            "code": "MIT",
+            "assets": "CC0-1.0"
+          },
+          "size": 370093,
+          "url": "https://github.com/weilers-git/gamehearth-mau-mau/releases/download/v0.2.0/mau-mau-0.2.0.zip",
+          "sha256": "2f3c11392acbbc8cd4bd15ee13820c890057b87187c12b3e8ba335f3c5303513"
+        },
         {
           "version": "0.1.0",
           "sdk": "^0.1.0",
